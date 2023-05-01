@@ -1,0 +1,46 @@
+﻿Quarter,facility_name,age_category,gender,tx_curr
+Q1 2022,Jalasi Health Centre,<1 years,Female,6
+Q1 2022,Jalasi Health Centre,1-4 years,Female,29
+Q1 2022,Jalasi Health Centre,5-9 years,Female,20
+Q1 2022,Jalasi Health Centre,10-14 years,Female,13
+Q1 2022,Jalasi Health Centre,15-19 years,Female,51
+Q1 2022,Jalasi Health Centre,20-24 years,Female,159
+Q1 2022,Jalasi Health Centre,25-29 years,Female,227
+Q1 2022,Jalasi Health Centre,30-34 years,Female,215
+Q1 2022,Jalasi Health Centre,35-39 years,Female,159
+Q1 2022,Jalasi Health Centre,40-44 years,Female,101
+Q1 2022,Jalasi Health Centre,45-49 years,Female,69
+Q1 2022,Jalasi Health Centre,50-54 years,Female,42
+Q1 2022,Jalasi Health Centre,55-59 years,Female,23
+Q1 2022,Jalasi Health Centre,60-64 years,Female,14
+Q1 2022,Jalasi Health Centre,65-69 years,Female,8
+Q1 2022,Jalasi Health Centre,70-74 years,Female,5
+Q1 2022,Jalasi Health Centre,75-79 years,Female,2
+Q1 2022,Jalasi Health Centre,80-84 years,Female,0
+Q1 2022,Jalasi Health Centre,85-89 years,Female,0
+Q1 2022,Jalasi Health Centre,90 plus years,Female,0
+Q1 2022,Jalasi Health Centre,<1 years,Male,5
+Q1 2022,Jalasi Health Centre,1-4 years,Male,31
+Q1 2022,Jalasi Health Centre,5-9 years,Male,23
+Q1 2022,Jalasi Health Centre,10-14 years,Male,7
+Q1 2022,Jalasi Health Centre,15-19 years,Male,3
+Q1 2022,Jalasi Health Centre,20-24 years,Male,11
+Q1 2022,Jalasi Health Centre,25-29 years,Male,23
+Q1 2022,Jalasi Health Centre,30-34 years,Male,42
+Q1 2022,Jalasi Health Centre,35-39 years,Male,81
+Q1 2022,Jalasi Health Centre,40-44 years,Male,54
+Q1 2022,Jalasi Health Centre,45-49 years,Male,41
+Q1 2022,Jalasi Health Centre,50-54 years,Male,25
+Q1 2022,Jalasi Health Centre,55-59 years,Male,22
+Q1 2022,Jalasi Health Centre,60-64 years,Male,14
+Q1 2022,Jalasi Health Centre,65-69 years,Male,4
+Q1 2022,Jalasi Health Centre,70-74 years,Male,0
+Q1 2022,Jalasi Health Centre,75-79 years,Male,0
+Q1 2022,Jalasi Health Centre,80-84 years,Male,1
+Q1 2022,Jalasi Health Centre,85-89 years,Male,0
+Q1 2022,Jalasi Health Centre,90 plus years,Male,0
+Q1 2022,Jalasi Health Centre,All,Male,387
+Q1 2022,Jalasi Health Centre,All,FP,47
+Q1 2022,Jalasi Health Centre,All,FNP,995
+Q1 2022,Jalasi Health Centre,All,FBF,101
+Q1 2022,Jalasi Health Centre,All,All,1530
