@@ -5,7 +5,7 @@ report_name = "report_validation_%s.csv" % datetime.now().strftime("%d%b%Y%H%M%S
 
 def main():
 
-    file = "jalasi_pepfar_indicators.csv" #input file name of indicators that needs to be validated
+    file = "example_pepfar_indicators.csv" #input file name of indicators that needs to be validated
     indicator = "TX_CURR" #type of indicator that needs to be validated. Could be removed if idicator is included in csv
 
     #reading the input file
@@ -41,9 +41,15 @@ def report_failure(facility, msg):
 
 def tx_curr(data, facility):
     pass
-    # All == Male + FNP + FBF + FP
-    # if not data.loc[(data['gender'] == 'All')]["tx_curr"] == Male + FNP + FBF + FP:
-    #    report_failure(facility, "All != Male + FNP + FBF + FP")
+    all_male = data.loc[(data['gender'] == 'Male') & (data['age_category'] == 'All')]['tx_curr'].astype(int).tolist()
+    fnp = data.loc[(data['gender'] == 'FNP')]['tx_curr'].astype(int).tolist() 
+    fbf = data.loc[(data['gender'] == 'FBF')]['tx_curr'].astype(int).tolist() 
+    fp = data.loc[(data['gender'] == 'FP')]['tx_curr'].astype(int).tolist()
+    all_clients =data.loc[(data['gender'] == 'FNP')]['tx_curr'].astype(int).tolist() #REPLACE WITH: all_clients =data.loc[(data['gender'] == 'All')]['tx_curr'].astype(int).tolist()
+
+    if not all_clients == (all_male + fnp + fbf + fp):
+        report_failure(facility, "All != Male + FNP + FBF + FP")
+
 
 
 def tx_new(data, facility):
