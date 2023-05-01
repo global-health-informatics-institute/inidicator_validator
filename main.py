@@ -54,7 +54,14 @@ def tx_curr(data, facility):
 
 def tx_new(data, facility):
     pass
+    all_male = data.loc[(data['gender'] == 'Male') & (data['age_category'] == 'All')]['tx_new'].astype(int).tolist()
+    fnp = data.loc[(data['gender'] == 'FNP')]['tx_new'].astype(int).tolist() 
+    fbf = data.loc[(data['gender'] == 'FBF')]['tx_new'].astype(int).tolist() 
+    fp = data.loc[(data['gender'] == 'FP')]['tx_new'].astype(int).tolist()
+    all_clients =data.loc[(data['gender'] == 'FNP')]['tx_new'].astype(int).tolist() #REPLACE WITH: all_clients =data.loc[(data['gender'] == 'All')]['tx_curr'].astype(int).tolist()
 
+    if not all_clients == (all_male + fnp + fbf + fp):
+        report_failure(facility, "All != Male + FNP + FBF + FP")
 
 def tx_pvls(data, facility):
     pass
